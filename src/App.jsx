@@ -62,7 +62,7 @@ function App() {
       {
         isLoading ?
          <figure className='app_progress'>
-          <img src="../../public/assets/loading.svg" alt="is Loading" />
+          <img src="../../assets/loading.svg" alt="is Loading" />
          </figure>
          :         
          <WeatherCard         
