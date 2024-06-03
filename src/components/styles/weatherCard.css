@@ -1,0 +1,82 @@
+.weathercard{
+     background-color: #68b0ab59;
+     width: 90%;
+     max-width: 550px;
+     min-height: 70vh;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 15px;
+     justify-content: space-evenly;
+     border-radius: 15px;    
+     border: 3px solid #555;
+}
+
+.weathercard_title{
+    text-transform: capitalize;
+}
+
+.weathercard_body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0 50px;
+}
+
+.weatehrcard_description{
+    text-transform:capitalize;
+}
+
+.weathercard_img img{
+    min-height: 200px;
+}
+
+.weathercard_data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.weathercard_list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.weathercard_item{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+}
+
+.weathercard_item:first-child{
+    text-transform: capitalize;
+}
+
+.weathercard_item:last-child{
+    font-weight: 900;
+}
+
+.weathercard_temp{
+    margin: 15px 0;
+}
+
+.weathercard_btn{
+    padding: 10px 15px;
+    border-radius: 5px; 
+    background-color: rgba(255, 228, 196, 0.219);   
+    transition: transform .25s;
+                box-shadow: .25s;
+}
+
+.weathercard_btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px;
+    transition: transform .25s;
+                box-shadow: .25s;
+}
+
+
